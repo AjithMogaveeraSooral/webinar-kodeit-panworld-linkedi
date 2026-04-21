@@ -1,2 +1,2 @@
-# webinar-kodeit-panworld-linkedi
+# kodeit-educator-event
 Kodeit Educator Event
