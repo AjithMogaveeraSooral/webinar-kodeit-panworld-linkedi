@@ -295,7 +295,8 @@
                   </div>
 
                   <label class="form-label">Wednesday - 29 April 2026</label>
-                  <div class="custom-multiselect schedule-dropdown" id="wednesday29Dropdown">
+                  <div class="custom-multiselect 
+                  schedule-dropdown" id="wednesday29Dropdown">
                     <div class="select-box" onclick="toggleScheduleDropdown('wednesday29Dropdown')">
                       <span class="placeholder-text">Select your schedule</span>
                       <span class="arrow"></span>
@@ -324,6 +325,16 @@
               </div>
 
               <hr class="form-divider" />
+
+              <div class="consent-group">
+                <label class="consent-label">
+                  <input type="checkbox" id="consentCheckbox" name="consent" required />
+                  <span class="consent-text">
+                    By completing your registration, you agree to receive communications from us now and in future on the contact details you provided. Read our <a href="https://kodeitglobal.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+                  </span>
+                </label>
+                <p class="consent-error" id="consentError" style="display:none;">Please agree to the terms to continue.</p>
+              </div>
 
               <div class="form-actions">
                 <button type="submit" class="btn-submit-modern">
